@@ -1,0 +1,44 @@
+{
+  "name": "css-challenge",
+  "version": "1.0.0",
+  "description": "Trying to improve my css",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurelius0523/css-challenge.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "challenge"
+  ],
+  "author": "kim.loong.tan/aurelius0523",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aurelius0523/css-challenge/issues"
+  },
+  "homepage": "https://github.com/aurelius0523/css-challenge#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "@webpack-cli/init": "^0.1.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
