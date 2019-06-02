@@ -1,16 +1,21 @@
-#app {
-    .content {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        height: 100%;
-        width: 55%;
-        background-color: #272727;
+.app {
+    > .overflow-scroll {
+        height: 100vh;
+        overflow-y: scroll;
+        width: 40%;
         margin: 0 auto;
-        justify-content: center;
 
-        @import "common/challenge-box.scss";
-        @import "challenges/challenge01.scss";
-        @import "challenges/challenge02.scss";
+        > .content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #272727;
+            margin: 0 auto;
+            justify-content: center;
+
+            @import "common/challenge-box.scss";
+            @import "challenges/challenge01.scss";
+            @import "challenges/challenge02.scss";
+        }
     }
 }

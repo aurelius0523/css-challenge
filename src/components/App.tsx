@@ -5,9 +5,11 @@ import Challenge02 from "./challenges/Challenge02";
 const App: React.StatelessComponent = () => {
     return (
         <div className="app">
-            <div className="content">
-                <Challenge01 />
-                <Challenge02 />
+            <div className="overflow-scroll">
+                <div className="content">
+                    <Challenge01 />
+                    <Challenge02 />
+                </div>
             </div>
         </div>
     );
