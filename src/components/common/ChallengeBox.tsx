@@ -7,7 +7,9 @@ interface Props {
 const ChallengeBox: React.StatelessComponent<Props> = (props: any) => {
     return (
         <div className="challenge-box-container">
-            <p className="title">{props.title}</p>
+            <div className="title">
+                <span className="title-text">{props.title}</span>
+            </div>
             {props.children}
         </div>
     );

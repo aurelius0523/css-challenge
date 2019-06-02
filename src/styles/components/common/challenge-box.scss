@@ -4,13 +4,14 @@
     margin: 40px 0;
     background: linear-gradient(45deg, #4f3ea0, #5ab6c4);
     position: relative;
+
     > .title {
+        display: flex;
         background-color: slateblue;
-        margin: 0;
-        padding: 0;
         color: white;
-        height: 22px;
-        text-align: center;
-        vertical-align: center;
+        height: 30px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
     }
 }
