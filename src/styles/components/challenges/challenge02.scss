@@ -1,0 +1,30 @@
+.challenge-02-container {
+    @for $i from 0 through 19 {
+        .#{"square"}-#{$i} {
+            position: absolute;
+            width: 10px + $i * 10px;
+            height: 10px + $i * 10px;
+            top: 200px - $i * 5px;
+            left: 200px - $i * 5px;
+            border: 1px solid white;
+            animation: rotate 4s ease-in-out ($i / 30) + s infinite;
+        }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+        border: 1px solid blue;
+    }
+
+    50% {
+        transform: rotate(0deg);
+        border: 1px solid blueviolet;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        border: 1px solid purple;
+    }
+}

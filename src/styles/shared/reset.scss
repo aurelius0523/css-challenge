@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Lora", "Arial", sans-serif;
+    background-color: black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
